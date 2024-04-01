@@ -1,0 +1,24 @@
+{
+  "name": "@abdulrahmanmoin/cli-based-todoapp",
+  "version": "1.0.1",
+  "description": "This is todo app and you can add tasks in it.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.2"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  }
+}
