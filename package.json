@@ -1,7 +1,7 @@
 {
   "name": "@abdulrahmanmoin/cli-based-todoapp",
-  "version": "1.0.1",
-  "description": "This is todo app and you can add tasks in it.",
+  "version": "1.0.3",
+  "description": "This is todo app and you can add, update, view and delete tasks.",
   "main": "index.js",
   "type": "module",
   "publishConfig": {
@@ -19,6 +19,7 @@
     "@types/node": "^20.12.2"
   },
   "dependencies": {
+    "chalk": "^4.1.2",
     "inquirer": "^9.2.17"
   }
 }
